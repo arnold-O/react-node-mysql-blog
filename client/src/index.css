@@ -66,11 +66,29 @@ button{
   background-color: rgb(189, 170, 170);
   border-radius: 12px;
 }
+.main-article-btn-wrapper{
+  margin-top: 15px;
+}
 .main-section-sidebar h3{
   text-align: center;
   margin: 12px 0;
   color: #fff;
   text-decoration: underline;
+}
+.main-article-btn-1{
+  padding: 6px 26px;
+  background-color: blue;
+  border:none;
+}
+.main-article-btn-2{
+  padding: 6px 24px;
+  background-color: red;
+  border:none;
+  margin-left: .4rem;
+}
+.header-description{
+  line-height: 1.5;
+  margin-top: 12px;
 }
 
 /* sidebar */
@@ -109,7 +127,15 @@ margin: 15px 0;
 
 
 }
+
 /* sidebar */
 
+
+
+/* all blogpost section */
+.all-post section{
+  margin-top: 90px;
+}
+/* all blogpost section */
 
 /* home section */
