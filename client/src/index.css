@@ -168,10 +168,9 @@ width: 50%;
 .input-field{
   width: 320px;
   outline: none;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 2px solid orange;
+  border: .5px solid orange;
+  height: 35px;
+  padding-left: 8px;
 }
 
 .post-Btn{
