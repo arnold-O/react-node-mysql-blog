@@ -139,3 +139,49 @@ margin: 15px 0;
 /* all blogpost section */
 
 /* home section */
+
+
+/* create post section */
+.create-post-section-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+.create-post-form{
+width: 50%;
+
+
+
+
+}
+.create-post-image-wrapper{
+  width: 50%;
+}
+
+.each-field-wrapper{
+  display: flex;
+  justify-content: center;
+  margin: 0px 0 35px ;
+}
+.input-field{
+  width: 320px;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid orange;
+}
+
+.post-Btn{
+  padding: 12px 32px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: orange;
+  border: none;
+  margin-top: 30px;
+  
+
+}
+/* create post section */
