@@ -1,13 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-button{
+button {
   cursor: pointer;
 }
 
@@ -17,20 +17,19 @@ button{
   margin: 0 auto;
 }
 
-.nav-header-section-wrapper{
+.nav-header-section-wrapper {
   height: 70px;
   background-color: #000;
 }
-.nav-links-wrapper{
+.nav-links-wrapper {
   height: inherit;
 
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
-
 }
-.nav-links-wrapper .nav-links{
+.nav-links-wrapper .nav-links {
   list-style: none;
   text-decoration: none;
   font-size: 24px;
@@ -38,61 +37,57 @@ button{
   color: #fff;
 }
 
-
-
-
 /* home section */
-.home-section-wrapper{
+.home-section-wrapper {
   margin-top: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2%;
 }
-.home-section-image-wrapper{
+.home-section-image-wrapper {
   width: 73%;
   height: 350px;
   align-self: flex-start;
 }
-.home-section-image-wrapper img{
+.home-section-image-wrapper img {
   width: 100%;
- height: inherit;
+  height: inherit;
   object-fit: cover;
-
 }
-.main-section-sidebar{
+.main-section-sidebar {
   width: 25%;
   align-self: flex-start;
   background-color: rgb(189, 170, 170);
   border-radius: 12px;
 }
-.main-article-btn-wrapper{
+.main-article-btn-wrapper {
   margin-top: 15px;
 }
-.main-section-sidebar h3{
+.main-section-sidebar h3 {
   text-align: center;
   margin: 12px 0;
   color: #fff;
   text-decoration: underline;
 }
-.main-article-btn-1{
+.main-article-btn-1 {
   padding: 6px 26px;
   background-color: blue;
-  border:none;
+  border: none;
 }
-.main-article-btn-2{
+.main-article-btn-2 {
   padding: 6px 24px;
   background-color: red;
-  border:none;
-  margin-left: .4rem;
+  border: none;
+  margin-left: 0.4rem;
 }
-.header-description{
+.header-description {
   line-height: 1.5;
   margin-top: 12px;
 }
 
 /* sidebar */
-.sidebar-card-items{
+.sidebar-card-items {
   width: 95%;
   margin: 0 auto;
   display: flex;
@@ -100,87 +95,89 @@ button{
   gap: 2%;
   margin-bottom: 15px;
 }
-.btn-wrapper{
-text-align: end;
-margin: 15px 0;
+.btn-wrapper {
+  text-align: end;
+  margin: 15px 0;
 }
-.btn-sidebar{
+.btn-sidebar {
   padding: 8px 16px;
   background-color: rgb(95, 241, 95);
   border-radius: 6px;
   border: none;
   outline: none;
-
 }
 
-.sidebar-image-wrapper{
+.sidebar-image-wrapper {
   width: 30%;
   height: 90px;
   align-self: flex-start;
 }
-.sidebar-image-wrapper img{
+.sidebar-image-wrapper img {
   width: 100%;
-  height: inherit
+  height: inherit;
 }
-.sidebar-description{
+.sidebar-description {
   width: 68%;
-
-
 }
 
 /* sidebar */
 
-
-
 /* all blogpost section */
-.all-post section{
+.all-post section {
   margin-top: 90px;
 }
 /* all blogpost section */
 
 /* home section */
 
-
 /* create post section */
-.create-post-section-wrapper{
+.create-post-section-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 30px;
-
+ 
 }
-.create-post-form{
-width: 50%;
-
-
-
-
+.create-post-form {
+  width: 50%;
+ 
 }
-.create-post-image-wrapper{
+.create-post-image-wrapper {
   width: 50%;
 }
+.create-post-image-wrapper img{
+  border-radius: 8px;
+}
 
-.each-field-wrapper{
+.each-field-wrapper {
   display: flex;
   justify-content: center;
-  margin: 0px 0 35px ;
+  margin: 0px 0 35px;
 }
-.input-field{
+.input-field {
   width: 320px;
   outline: none;
-  border: .5px solid orange;
+  border: 0.5px solid orange;
   height: 35px;
   padding-left: 8px;
 }
 
-.post-Btn{
+.post-Btn {
   padding: 12px 32px;
   border-radius: 8px;
   color: #fff;
   background-color: orange;
   border: none;
-  margin-top: 30px;
-  
-
+  margin-top: 15px;
 }
+.createpost-heading{
+  text-align: center;
+  margin: 12px 0 70px;
+}
+
+/* user post section */
+.user-posts{
+  margin-top: 70px;
+}
+/* user post section */
 /* create post section */

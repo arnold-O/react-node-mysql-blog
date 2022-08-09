@@ -9,15 +9,16 @@ export default function Createpost() {
     postText: "",
   };
   const validationSchema = Yup.object().shape({
-    title: Yup.string().required('you must enter a title'),
-    postText: Yup.string().required(),
-    username: Yup.string().min(3).max(15).required(),
+    title: Yup.string().required("please enter  Title"),
+    postText: Yup.string().required("please enter post"),
+    username: Yup.string().min(3).max(15).required("please enter Username"),
   });
   const handleSubmit = (data) => {
-    console.log(data)
+    console.log(data);
   };
   return (
     <div className="main-container-wrapper">
+      <h1 className="createpost-heading">Create Post</h1>
       <div className="create-post-section-wrapper">
         <div className="create-post-form">
           <Formik
@@ -26,28 +27,40 @@ export default function Createpost() {
             validationSchema={validationSchema}
           >
             <Form>
-                <ErrorMessage name="title" component={'p'} style={{textAlign:"center", color:"red"}}/>
+              <ErrorMessage
+                name="title"
+                component={"p"}
+                style={{ textAlign: "center", color: "red" }}
+              />
               <div className="each-field-wrapper">
                 <Field
                   id="inputCreatepost"
                   autocomplete="off"
                   name="title"
-                  placeholder="Ex. Title...."
+                  placeholder="Enter  Title    Ex. Mystery Mist"
                   className="input-field"
                 />
               </div>
 
-              <ErrorMessage name="username" component={'p'} style={{textAlign:"center", color:"red"}}/>
+              <ErrorMessage
+                name="username"
+                component={"p"}
+                style={{ textAlign: "center", color: "red" }}
+              />
               <div className="each-field-wrapper">
                 <Field
                   id="inputCreatepost"
                   name="username"
-                  placeholder="Ex. John Doe...."
+                  placeholder="Enter Username  Ex. John123"
                   className="input-field"
                 />
               </div>
 
-                <ErrorMessage name="postText" component={'p'} style={{textAlign:"center", color:"red"}}/>
+              <ErrorMessage
+                name="postText"
+                component={"p"}
+                style={{ textAlign: "center", color: "red" }}
+              />
               <div className="each-field-wrapper">
                 <Field
                   id="post"
@@ -70,6 +83,29 @@ export default function Createpost() {
           <img src="/create.jpg" alt="" />
         </div>
       </div>
+
+      {/* personal post */}
+
+      <section className="user-posts">
+        <h3>Previous Post</h3>
+        <div className="past-post-wrapper">
+          <div className="cardItem">
+            <div className="user-info">
+              <img src="" alt="" />
+              <div>
+                <p>John211</p>
+                <p>Aug 7 of 15:09</p>
+              </div>
+            </div>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maxime
+              error doloribus perspiciatis? Aliquid, provident.
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* personal post */}
     </div>
   );
 }
