@@ -176,8 +176,26 @@ button {
 }
 
 /* user post section */
+.cardItem-wrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
 .user-posts{
-  margin-top: 70px;
+  margin: 70px 0;
+
+}
+
+.user-posts h3{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.cardItem{
+
+  background-color:grey;
+  
+  
 }
 /* user post section */
 /* create post section */

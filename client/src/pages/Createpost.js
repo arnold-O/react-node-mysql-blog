@@ -88,21 +88,138 @@ export default function Createpost() {
 
       <section className="user-posts">
         <h3>Previous Post</h3>
-        <div className="past-post-wrapper">
+        <div className="cardItem-wrapper">
+          {/* card */}
           <div className="cardItem">
             <div className="user-info">
               <img src="" alt="" />
-              <div>
+              <div className="post-timestamp">
+                <p>John211</p>
+                <p>Aug 7 of 15:09</p>
+              </div>
+            </div>
+            <div>
+              
+            </div>
+            <p className="post-details">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maxime
+              error doloribus perspiciatis? Aliquid, provident.
+            </p>
+          </div>
+           {/* card */}
+          {/* card */}
+          <div className="cardItem">
+            <div className="user-info">
+              <img src="" alt="" />
+              <div className="post-timestamp">
                 <p>John211</p>
                 <p>Aug 7 of 15:09</p>
               </div>
             </div>
             <hr />
-            <p>
+            <p className="post-details">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maxime
               error doloribus perspiciatis? Aliquid, provident.
             </p>
           </div>
+           {/* card */}
+          {/* card */}
+          <div className="cardItem">
+            <div className="user-info">
+              <img src="" alt="" />
+              <div className="post-timestamp">
+                <p>John211</p>
+                <p>Aug 7 of 15:09</p>
+              </div>
+            </div>
+            <hr />
+            <p className="post-details">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maxime
+              error doloribus perspiciatis? Aliquid, provident.
+            </p>
+          </div>
+           {/* card */}
+          {/* card */}
+          <div className="cardItem">
+            <div className="user-info">
+              <img src="" alt="" />
+              <div className="post-timestamp">
+                <p>John211</p>
+                <p>Aug 7 of 15:09</p>
+              </div>
+            </div>
+            <hr />
+            <p className="post-details">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maxime
+              error doloribus perspiciatis? Aliquid, provident.
+            </p>
+          </div>
+           {/* card */}
+          {/* card */}
+          <div className="cardItem">
+            <div className="user-info">
+              <img src="" alt="" />
+              <div className="post-timestamp">
+                <p>John211</p>
+                <p>Aug 7 of 15:09</p>
+              </div>
+            </div>
+            <hr />
+            <p className="post-details">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maxime
+              error doloribus perspiciatis? Aliquid, provident.
+            </p>
+          </div>
+           {/* card */}
+          {/* card */}
+          <div className="cardItem">
+            <div className="user-info">
+              <img src="" alt="" />
+              <div className="post-timestamp">
+                <p>John211</p>
+                <p>Aug 7 of 15:09</p>
+              </div>
+            </div>
+            <hr />
+            <p className="post-details">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maxime
+              error doloribus perspiciatis? Aliquid, provident.
+            </p>
+          </div>
+           {/* card */}
+          {/* card */}
+          <div className="cardItem">
+            <div className="user-info">
+              <img src="" alt="" />
+              <div className="post-timestamp">
+                <p>John211</p>
+                <p>Aug 7 of 15:09</p>
+              </div>
+            </div>
+            <hr />
+            <p className="post-details">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maxime
+              error doloribus perspiciatis? Aliquid, provident.
+            </p>
+          </div>
+           {/* card */}
+          {/* card */}
+          <div className="cardItem">
+            <div className="user-info">
+              <img src="" alt="" />
+              <div className="post-timestamp">
+                <p>John211</p>
+                <p>Aug 7 of 15:09</p>
+              </div>
+            </div>
+            <hr />
+            <p className="post-details">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maxime
+              error doloribus perspiciatis? Aliquid, provident.
+            </p>
+          </div>
+           {/* card */}
+
         </div>
       </section>
       {/* personal post */}
